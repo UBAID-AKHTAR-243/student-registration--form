@@ -28,4 +28,4 @@ jobs:
     - name: Installing surge
       run:  npm install -g surge
     - name: Deploying using surge
-      run: surge ./ubaid-developers.surge.sh
+      run: surge ./ubaid-developers.surge.sh --token ${{secrets.U_11}}
