@@ -1,50 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UBAID DEVELOPERS</title>
-   
-    <style>
-        p {text-align: right;color: blueviolet;padding-right: 55%;font-size: 30px}
-    h1{color: rgb(241, 234, 245);text-align: center;}
-    h2 {color: rgb(244, 238, 247);text-align:center;}
-    h3 {font-size: 35px;background-color: cadetblue;text-align: center;color: white; }
-    h5 {text-align: left;color:white;font-size:20px;}
-    h4 {background-color: white;color: rgb(11, 94, 8);font-size: 30px;background-size: 50%;}
-    span {color: rgb(253, 250, 250);text-align: center;}
-    div {color: rgb(255, 249, 249);font-size: 50px;text-align: center;size: 30%;}
-audio {float: right;}
-    </style>
+    <script type="text/javascript" src="validate.js"></script>
+    <title>UNIQUE SHIBLEE GROUP OF SCHOOLS AND COLLEGES MONGI-B</title>
+<style>
+  .hi {background-color:dodgerblue;color: white; font-size: large;border-width: 8px;border-color: white;}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(87, 10, 10); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+/*arrows on ends of scroll bar*/
+::-webkit-scrollbar-button {background-color: rgb(243, 235, 233);color: white;scrollbar-arrow-color:violet}
+
+
+
+    h1,th {  color:rgb(222, 234, 235);border:rgb(136, 7, 129);
+ }
+table { background-color:#521318;color: rgb(58, 52, 133);
+text-decoration-color: cadetblue;width: 75%;align-self: center;margin: auto;}
+td {color: white;padding: 25px;}
+input {color: rgba(5, 31, 44, 0.993);background-color: white;}
+button {background-color:dodgerblue;color: white;}
+ body {background-color:#524646;} 
+
+ #myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #531217;
+}
+
+
+
+
+
+
+
+</style>
+
+
 </head>
-<body style="background-color: rgb(22, 22, 90); ">
-   
-      <h1>  WELCOME</h1>
-     <div> 
-    <audio controls>
-        <source src="abdullah-al-buraimi.mp3" type="audio/mp3">
-    </audio></div>
-
-    <span>
-   TO
-    </span>
-
-   
+<body>
   
-    <h3>
-        UBAID WEB AND APP DEVELOPEMENT INC.(LTD)
-    </h3>
-    <h4>
-        AVAILABLE SERVICES:
-    </h4>
-    <h5>ARTIFICIAL ITELLIGENCE APPS:</h5>
-    <h5>MOBILE APP DEVELOPEMENT:</h5>
-    <h5>WEBSITE DEVELOPEMENT:</h5>
 
-<picture>
-    <img src="images-1.jpg" width="200px" height="220px">
-    <img src="ubaid 11-DARK.jpg" width="200px" height="225px">
-</picture>
 
-    </body>
-    </html>
+
+
+
+
+
+
+
+
+
+    <form action="#" name="StudentRegistration" onsubmit="return(validate());">
+ <form >
+<table >
+
+
+<td colspan="2">
+<h1><center><font size="6"><b><u>Student Registration Form</u></b></font></center></td></h1>
+
+   <tr>
+       <td>Student Name</td>
+    <td><input TYPE="text" fontsize="20" size="40"></td>
+   </tr>
+
+
+<tr><td>Father Name</td>
+<td><input TYPE="text" size="40"></td></tr>
+
+
+<tr><td> Phone Number </td>
+    <td><input TYPE="text"size="40" ></input></td></tr>
+
+
+    <tr><td>Date Of Birth</td>
+    <td><input type="date">
+
+    SEX
+    <input type="radio" name="sex" value="male" size="10" checked>Male
+   <input type="radio" name="sex" value="Female" size="10">Female</td>
+     </tr>
+
+
+    <tr>
+      
+      <td>Attach Photo</td>
+        <td><input type="file">
+        <button onclick="move()">UPLOAD</button></td>
+        <div id="myProgress">
+          <div id="myBar"></div>
+        </div>
+        
+  <script>
+    var i = 0;
+    function move() {
+      if (i == 0) {
+        i = 1;
+        var elem = document.getElementById("myBar");
+        var width = 1;
+        var id = setInterval(frame, 20);
+        function frame() {
+          if (width >= 100) {
+            clearInterval(id);
+            i = 0;
+          } else {
+            width++;
+            elem.style.width = width + "%";
+          }
+        }
+      }
+    }
+    </script>
+    </tr>
+
+    
+ 
+
+    
+<tr>
+    <td>Class And Section</td>
+    <td><select name="Course">
+    <option value="-1" selected>select....................</option>
+    <option value="PREP">PREP </option>
+    <option value="ONE">ONE</option>
+    <option value="TWO">TWO</option>
+    <option value="THREE">THREE</option>
+    <option value="FOUR">FOUR</option>
+    <option value="FIVE">FIVE</option>
+    <option value="6 <sup>th">6 <sup>th</option>
+    <option value="7<sup>th">7<sup>th</option>
+    <option value="8 <sup>th">8 <sup>th</option>
+    <option value="9 <sup>th">9 <sup>th</option>
+    <option value="10 <sup>th">10 <sup>th</option>
+    <option value="OTHERS">Others</option>
+    </select>
+    <input type="text" size="20"></td>
+ </tr> 
+
+<tr>
+    <td>Course</td>
+    <td><select name="Course">
+    <option value="-1" selected>select....................</option>
+    <option value="General Science">General Science</option>
+    <option value="Biology Group">Biology Group</option>
+    <option value="Computer Grroup">Computer Group</option>
+    <option value="OTHERS">Others</option>
+    </select>
+    <input type="text" size="20"></td>
+ </tr> 
+ 
+ <tr>
+    <td>Residential Address</td>
+    <td><select name="City">
+        <option value="-1" selected>select.....</option>
+        <option value="Chak No. 243 G.B">Chak No. 243 G.B</option>
+        <option value="Chak No. 244 G.B"input type="checkbox" >Chak No. 244 G.B</option>
+        <option value="Chak No. 245 G.B">Chak No. 245 G.B</option>
+        <option value="Chak No. 246 G.B">Chak No. 246 G.B</option>
+        <option value="Mongi Banlow">Mongi Banglow</option>
+        <option value="OTHERS">Others</option>
+    </select>
+    <input type="text"></td></tr>
+
+
+
+ <tr>
+    <td>E-mail ID</td>
+ <td><input TYPE="text" fontsize="20" size="40"></td>
+</tr>
+
+<tr>
+    <td>Pay Fees by Easy-Paisa<br>(Enter Receipt No.)</td>
+    <td><input TYPE="text" fontsize="20" size="40"></td>
+</tr>
+
+
+
+<tr>
+    <td align="left" title="reset" ><input class="hi" type="reset" ></td>
+    <td  align="right" ><input class="hi" type="submit" value="Submit Form"></td>
+    </tr>
+
+   
+
+
+
+
+</table>
+</form>
+</body>
+</html>
